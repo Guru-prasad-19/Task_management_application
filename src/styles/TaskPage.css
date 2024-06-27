@@ -1,0 +1,42 @@
+.taskPage {
+    width: 60%;
+    text-align: center;
+}
+
+.task {
+    width: 100%;
+    margin: 10px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+    text-align: left;
+}
+
+button {
+    cursor: pointer;
+    padding: 1% 2%;
+    margin: 1%;
+    width: 10%;
+    height: 10%;
+    font-size: 0.7em;
+    border-radius: 10%;
+    border: none;
+}
+button:hover {
+    background-color: gray;
+}
+.createNewTask {
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    align-items: center;
+    gap: 20px;
+}
+
+.createNewTask div {
+    display: flex;
+    justify-content:space-evenly;
+    gap: 20px;
+}
